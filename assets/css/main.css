@@ -3397,6 +3397,7 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+			padding-left: 12%;
 		}
 
 			#banner .logo .icon {
@@ -3498,6 +3499,8 @@ input, select, textarea {
 
 				#banner .logo {
 					margin: 0 0 1em 0;
+					padding-left: 0;
+					text-align: center;
 				}
 
 					#banner .logo .icon {
