@@ -24,6 +24,12 @@ function messageHandleChange(e) {
     messageValue = e.target.value;
 }
 
+function resetValues() {
+    name.value = '';
+    email.value = '';
+    message.value = '';
+}
+
 function submit(e) {
     e.preventDefault();
     //submit form
@@ -34,13 +40,14 @@ function submit(e) {
     }
     fetch("https://vsportfolio-email-server.herokuapp.com/contact", { 
             method: 'POST',
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json',
+            },
             body: JSON.stringify(contactMessage)
-        }).then(res => {
-            console.log(res.data.message);
+        }).then(() => {
+            resetValues();
         }).catch(err => {
-            console.log(err);
+            console.log(err.json());
         });
-    name.value = '';
-    email.value = '';
-    message.value = '';
 }
