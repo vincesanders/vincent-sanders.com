@@ -4,3 +4,6 @@
 [submodule "pic-metric-marketing-page"]
 	path = pic-metric-marketing-page
 	url = https://github.com/vincesanders/pic-metric-marketing-page.git
+[submodule "spidergraph-marketing-page"]
+	path = spidergraph-marketing-page
+	url = https://github.com/vincesanders/spidergraph-marketing-page.git
