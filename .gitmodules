@@ -1,3 +1,6 @@
 [submodule "airprice-marketing-page"]
 	path = airprice-marketing-page
 	url = https://github.com/vincesanders/airprice-marketing-page.git
+[submodule "pic-metric-marketing-page"]
+	path = pic-metric-marketing-page
+	url = https://github.com/vincesanders/pic-metric-marketing-page.git
