@@ -150,13 +150,14 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
   color: #ffffff;
   text-decoration: none;
 }
 a:hover {
   border-bottom-color: transparent;
   color: #ffffff !important;
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 }
 a.special:not(.button) {
   text-decoration: none;
