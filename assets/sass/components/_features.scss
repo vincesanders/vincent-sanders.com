@@ -24,7 +24,9 @@
 
 			.image {
 				border-radius: _size(border-radius) _size(border-radius) 0 0;
-				display: block;
+				display: flex;                /* changed */
+				justify-content: center;      /* changed */
+				background-color: rgba(255, 255, 255, 0.03);/* changed */
 				margin-bottom: 1.75em;
 				margin-left: -1.75em;
 				margin-top: -1.75em;
@@ -33,7 +35,11 @@
 
 				img {
 					border-radius: _size(border-radius) _size(border-radius) 0 0;
-					width: 100%;
+					width: 90%;                /* changed */
+				}
+
+				#todo-list-app-img {
+					width: 100%;                /* changed */
 				}
 			}
 		}

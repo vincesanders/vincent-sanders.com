@@ -3017,7 +3017,9 @@ input, select, textarea {
 
 			.features article .image {
 				border-radius: 5px 5px 0 0;
-				display: block;
+				display: flex;                /* changed */
+				justify-content: center;      /* changed */
+				background-color: rgba(255, 255, 255, 0.03);/* changed */
 				margin-bottom: 1.75em;
 				margin-left: -1.75em;
 				margin-top: -1.75em;
@@ -3027,7 +3029,11 @@ input, select, textarea {
 
 				.features article .image img {
 					border-radius: 5px 5px 0 0;
-					width: 100%;
+					width: 90%;                /* changed */
+				}
+
+				#todo-list-app-img {
+					width: 100%;                /* changed */
 				}
 
 		@media screen and (max-width: 980px) {
