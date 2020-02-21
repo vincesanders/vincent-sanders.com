@@ -35,7 +35,8 @@
 
 				img {
 					border-radius: _size(border-radius) _size(border-radius) 0 0;
-					width: 90%;                /* changed */
+					width: 90%;  
+					height: auto;              /* changed */
 				}
 
 				#todo-list-app-img {

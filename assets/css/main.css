@@ -2448,6 +2448,7 @@ button,
 .features article .image img {
   border-radius: 5px 5px 0 0;
   width: 90%;
+  height: auto;
   /* changed */
 }
 .features article .image #todo-list-app-img {
@@ -3371,3 +3372,50 @@ body.is-preload #banner p {
 }
 
 /*# sourceMappingURL=main.css.map */
+/*# pdf formatting */
+#pdf-object {
+  width: 90%;
+  margin: 0 auto;
+  object-fit: contain;
+  height: 1150px;
+}
+
+#pdf-embed {
+  width: 100%;
+  /* padding-top: 73%; */
+}
+
+#pdf-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  #pdf-object {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #pdf-object {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #pdf-object {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #pdf-object {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #pdf-object {
+    height: 400px;
+  }
+}
