@@ -3378,7 +3378,7 @@ body.is-preload #banner p {
   margin: 0 auto;
   object-fit: contain;
   height: 1150px;
-  background-color: white;
+  background-color: #414447;
 }
 
 #pdf-embed {
