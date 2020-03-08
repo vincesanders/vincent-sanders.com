@@ -3383,6 +3383,7 @@ body.is-preload #banner p {
 
 #pdf-embed {
   width: 100%;
+  height: 100%;
   /* padding-top: 73%; */
 }
 
@@ -3415,7 +3416,7 @@ body.is-preload #banner p {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   #pdf-object {
     height: 400px;
   }
