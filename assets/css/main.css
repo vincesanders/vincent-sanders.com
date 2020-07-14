@@ -157,7 +157,6 @@ a {
 a:hover {
   border-bottom-color: transparent;
   color: #ffffff !important;
-  border-bottom-color: rgba(255, 255, 255, 0.8);
 }
 a.special:not(.button) {
   text-decoration: none;
@@ -1650,8 +1649,6 @@ form > .fields {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: calc(100% + 3em);
-  -webkit-width: calc(100% + 3em);
-  -moz-width: calc(100% + 3em);
   margin: -1.5em 0 2em -1.5em;
 }
 form > .fields > .field {
@@ -1665,51 +1662,33 @@ form > .fields > .field {
   flex-shrink: 0;
   padding: 1.5em 0 0 1.5em;
   width: calc(100% - 1.5em);
-  -webkit-width: calc(100% - 1.5em);
-  -moz-width: calc(100% - 1.5em);
 }
 form > .fields > .field.half {
   width: calc(50% - 0.75em);
-  -webkit-width: calc(50% - 0.75em);
-  -moz-width: calc(50% - 0.75em);
 }
 form > .fields > .field.third {
   width: calc(100%/3 - 0.5em);
-  -webkit-width: calc(100%/3 - 0.5em);
-  -moz-width: calc(100%/3 - 0.5em);
 }
 form > .fields > .field.quarter {
   width: calc(25% - 0.375em);
-  -webkit-width: calc(25% - 0.375em);
-  -moz-width: calc(25% - 0.375em);
 }
 @media screen and (max-width: 480px) {
   form > .fields {
     width: calc(100% + 3em);
-    -webkit-width: calc(100% + 3em);
-    -moz-width: calc(100% + 3em);
     margin: -1.5em 0 2em -1.5em;
   }
   form > .fields > .field {
     padding: 1.5em 0 0 1.5em;
     width: calc(100% - 1.5em);
-    -webkit-width: calc(100% - 1.5em);
-    -moz-width: calc(100% - 1.5em);
   }
   form > .fields > .field.half {
     width: calc(100% - 1.5em);
-    -webkit-width: calc(100% - 1.5em);
-    -moz-width: calc(100% - 1.5em);
   }
   form > .fields > .field.third {
     width: calc(100% - 1.5em);
-    -webkit-width: calc(100% - 1.5em);
-    -moz-width: calc(100% - 1.5em);
   }
   form > .fields > .field.quarter {
     width: calc(100% - 1.5em);
-    -webkit-width: calc(100% - 1.5em);
-    -moz-width: calc(100% - 1.5em);
   }
 }
 
@@ -1767,8 +1746,6 @@ select {
   background-size: 1.25rem;
   background-repeat: no-repeat;
   background-position: calc(100% - 1rem) center;
-  -webkit-background-position: calc(100% - 1rem) center;
-  -moz-background-position: calc(100% - 1rem) center;
   height: 2.75em;
   padding-right: 2.75em;
   text-overflow: ellipsis;
@@ -2069,8 +2046,6 @@ ul.actions.stacked li:first-child {
 }
 ul.actions.fit {
   width: calc(100% + 1em);
-  -webkit-width: calc(100% + 1em);
-  -moz-width: calc(100% + 1em);
 }
 ul.actions.fit li {
   -moz-flex-grow: 1;
@@ -2242,15 +2217,11 @@ ul.pagination li:last-child {
   }
   ul.pagination li:first-child {
     width: calc(50% - 2px);
-    -webkit-width: calc(50% - 2px);
-    -moz-width: calc(50% - 2px);
     text-align: left;
     padding-right: 0.325em;
   }
   ul.pagination li:last-child {
     width: calc(50% - 2px);
-    -webkit-width: calc(50% - 2px);
-    -moz-width: calc(50% - 2px);
     text-align: right;
     padding-left: 0.325em;
   }
@@ -2455,8 +2426,6 @@ button,
   border-radius: 5px;
   margin: 1.5em 3em 1.5em 0;
   width: calc(50% - 1.5em);
-  -webkit-width: calc(50% - 1.5em);
-  -moz-width: calc(50% - 1.5em);
 }
 .features article:nth-child(2n) {
   margin-right: 0;
@@ -2474,8 +2443,6 @@ button,
   margin-top: -1.75em;
   position: relative;
   width: calc(100% + 3.5em);
-  -webkit-width: calc(100% + 3.5em);
-  -moz-width: calc(100% + 3.5em);
 }
 .features article .image img {
   border-radius: 5px 5px 0 0;
@@ -2491,8 +2458,6 @@ button,
   .features article {
     margin: 1em 2em 1em 0;
     width: calc(50% - 1em);
-    -webkit-width: calc(50% - 1em);
-    -moz-width: calc(50% - 1em);
   }
 }
 @media screen and (max-width: 736px) {
@@ -2500,16 +2465,12 @@ button,
     padding: 1.5em 1.5em 0.1em 1.5em;
     margin: 0.875em 1.75em 0.875em 0;
     width: calc(50% - 0.875em - 1px);
-    -webkit-width: calc(50% - 0.875em - 1px);
-    -moz-width: calc(50% - 0.875em - 1px);
   }
   .features article .image {
     margin-bottom: 1.5em;
     margin-left: -1.5em;
     margin-top: -1.5em;
     width: calc(100% + 3em);
-    -webkit-width: calc(100% + 3em);
-    -moz-width: calc(100% + 3em);
   }
 }
 @media screen and (max-width: 480px) {
@@ -2520,6 +2481,10 @@ button,
     width: 100%;
     margin: 0 0 2em 0 !important;
   }
+}
+
+#resume-container img {
+  width: 100%;
 }
 
 /* Header */
@@ -2874,7 +2839,7 @@ body.is-menu-visible #menu .inner {
   #banner {
     padding: 7em 0 8.25em 0;
     background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/wisteria.jpg");
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
@@ -2965,7 +2930,7 @@ body.is-preload #banner p {
   #wrapper > header {
     padding: 9em 0 6.25em 0;
     background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/wisteria.jpg");
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
@@ -3316,13 +3281,9 @@ body.is-preload #banner p {
 #footer .inner form {
   margin: 0 3em 0 0;
   width: calc(50% - 1.5em);
-  -webkit-width: calc(50% - 1.5em);
-  -moz-width: calc(50% - 1.5em);
 }
 #footer .inner .contact {
   width: calc(50% - 1.5em);
-  -webkit-width: calc(50% - 1.5em);
-  -moz-width: calc(50% - 1.5em);
 }
 #footer .inner .copyright {
   border-top: solid 2px rgba(255, 255, 255, 0.125);
@@ -3352,7 +3313,7 @@ body.is-preload #banner p {
 @media screen and (max-width: 1280px) {
   #footer {
     background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/wisteria.jpg");
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
@@ -3414,52 +3375,3 @@ body.is-preload #banner p {
 }
 
 /*# sourceMappingURL=main.css.map */
-/*# pdf formatting */
-#pdf-object {
-  width: 90%;
-  margin: 0 auto;
-  object-fit: contain;
-  height: 1150px;
-  background-color: #414447;
-}
-
-#pdf-embed {
-  width: 100%;
-  height: 100%;
-  /* padding-top: 73%; */
-}
-
-#pdf-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-@media screen and (max-width: 1024px) {
-  #pdf-object {
-    height: 800px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  #pdf-object {
-    height: 700px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #pdf-object {
-    height: 600px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  #pdf-object {
-    height: 500px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  #pdf-object {
-    height: 400px;
-  }
-}
