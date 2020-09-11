@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+		<title>Vincent Sanders - Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		<link rel="manifest" href="assets/manifest.json">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+</head>
+<body class="is-preload">
+
+    <!-- Page Wrapper -->
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html">Vincent Sanders</a></h1>
+                <nav>
+                    <a href="#menu">Menu</a>
+                </nav>
+            </header>
+
+            <!-- Menu -->
+            <nav id="menu">
+                <div class="inner">
+                    <h2>Menu</h2>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resume.html">About Me</a></li>
+                        <li><a href="#four">Projects</a></li>
+                        <li><a href="resume.html#skills-link">Skills</a></li>
+                        <li><a href="resume.html#my-journey">My Story</a></li>
+                        <li><a href="resume.html#resume-container">Resume</a></li>
+                        <li><a href="#footer">Contact Me</a></li>
+                    </ul>
+                    <a href="#" class="close">Close</a>
+                </div>
+            </nav>
+
+            <!-- Wrapper -->
+            <section id="wrapper">
+                <header>
+                    <div class="inner">
+                        <h2>Projects</h2>
+                        <p>A collection of other projects I've worked on over the years.</p>
+                    </div>
+                </header>
+
+                <!-- Content -->
+                <div class="wrapper">
+                    <div class="inner">
+                        <section>
+                            <h3 class="major">Game of Life</h3>
+                            <p>This is a React version of John Horton Conway's Game of Life. The challenge of this project was in its optimization. The amount of rerenders of the game board that were required made it difficult to render many generations in short period of time. Caching with hashmaps along with using the Canvas API got me the performance I was after.</p>
+                            <p>The project also includes functionality to convert RLE (run length encoded) files to pattern objects that can be easily used by the application. RLE files are used by Game of Life enthusiasts to store patterns on the game board. I included two of my favorites in the deployed version of the application. Time permitting, I'll add more patterns in the future.</p>
+                            <p>Note: This application is meant to be used on a PC.</p>
+                            <a href="https://game-of-life-canvas.now.sh/" class="special">Deployed Application</a>
+                            <a href="https://github.com/vincesanders/game-of-life-canvas" class="special">GitHub Link</a>
+                        </section>
+                        <section>
+                            <h3 class='major'>ToDo</h3>
+                            <p>This is one of the first projects I made with React. I utilized a simple reducer with the useReducer hook to handle state. The most challenging aspect of this project was the animations. They are subtle, but I think they are effective.</p>
+                            <a href="https://reducer-todo-five.now.sh/" class="special">Deployed Application</a>
+                            <a href="https://github.com/vincesanders/reducer-todo" class="special">GitHub Link</a>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="inner">
+                <h2 class="major">Get in touch</h2>
+                <p>I am currently looking for work in the software engineering field. I am confident I can be a valuable asset to your development team. If you would like to contact me about job oportunities or for project collaboration, please use the form below.</p>
+                <form method="post" action="#">
+                    <div class="fields">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" /></li>
+                    </ul>
+                </form>
+                <ul class="contact">
+                    <li class="icon solid fa-home">
+                        Vincent Sanders<br />
+                        Kansas City, MO
+                    </li>
+                    <li class="icon solid fa-phone">(660) 232-1059</li>
+                    <li class="icon solid fa-envelope"><a href="mailto:vincesanders@hotmail.com">vincesanders@hotmail.com</a></li>
+                    <li class="icon brands fa-linkedin-in"><a href="https://www.linkedin.com/in/vincent-sanders/">linkedin.com/in/vincent-sanders</a></li>
+                    <li class="icon brands fa-twitter"><a href="https://twitter.com/krayziesensei">twitter.com/krayziesensei</a></li>
+                    <li class="icon brands fa-github"><a href="https://github.com/vincesanders">github.com/vincesanders</a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; Vincent Sanders All rights reserved.</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/handleContact.js"></script>
+
+</body>
+</html>
